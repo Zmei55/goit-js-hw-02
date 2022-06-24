@@ -1,9 +1,6 @@
 const logItems = function (array) {
-  let element = '';
-
   for (let i = 0; i < array.length; i += 1) {
-    element = `${i + 1} - ${array[i]}`;
-    console.log(element);
+    console.log(`${i + 1} - ${array[i]}`);
   }
 };
 
